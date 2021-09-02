@@ -1,0 +1,29 @@
+body 
+{
+    /* Los navegadores por defecto dan ciertos estilos, por 
+    lo tanto se debe crear el margin y el padding igual a 0, 
+    para que no aparezcan margenes en la página */
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header 
+{
+    /* El header ocupa todo el ancho de la pantalla, por 
+    tanto se coloca en 100% */
+    width: 100%;
+    height: 60px;
+}
+
+header nav 
+{
+    /* En este punto se coloca el display flex, para acomodar
+    los elementos */
+    display: flex;
+    /* El justify-content permite colocar los elemento o en el
+    extremo izquierdo o derecho o en el centro */
+    justify-content: flex-end;
+
+}
