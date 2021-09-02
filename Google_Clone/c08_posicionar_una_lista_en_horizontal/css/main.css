@@ -1,0 +1,52 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a 
+{
+    /* Eliminar el subrado de los elementos de todaa las 
+    etiquetas ancla */
+    text-decoration: none;
+    /* Aparezca una mano al pasar por encima de la etiqueta 
+    ancla */
+    cursor: pointer;
+}
+
+header 
+{
+    width: 100%;
+    height: 60px;
+}
+
+header nav 
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section 
+{
+    width: 250px;
+    /* El height ya tiene una altura dada por su etiqueta 
+    padre header, por lo que se coloca auto, para que se 
+    acomode a la altura de su etiqueta padre */
+    height: auto;
+    display: flex;
+    /* Se retiran los bullets o puntos de la lista */
+    list-style: none;
+    /* Se centrs el contenido de las listas */
+    justify-content: center;
+    /* Se centra de manera vertical */
+    align-items: center;
+}
+
+/* Estilo para separar los elementos */
+nav .nav-right-section a
+{
+    margin-right: 10px;
+    color: #000000;
+}
